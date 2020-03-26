@@ -1,0 +1,33 @@
+button {
+  user-select: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+.row1{
+ width : 400px;
+ padding: 10px;
+  height : 100px;
+}
+
+.left, .bottom-left{
+  width: 15%;
+  float:left;
+}
+ .right  ,  .bottom-right{
+  width: 15%;
+   float:right;
+}
+.middle {
+ margin-top: 50px;
+  width: 25%;
+margin-left:100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

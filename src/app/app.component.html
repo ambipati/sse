@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<section>
+  
+  <span>{{message}}</span>
+  <div class="btns-container">
+    <app-button [buttonConfig]="textBtnConfig"
+                (textBtnClickEmt)="onClickEventReceived($event)"></app-button>
+    <app-button [buttonConfig]="imgBtnConfig"
+                (imgBtnClickEmt)="onClickEventReceived($event)"></app-button>
+  </div>
+  
+</section>
